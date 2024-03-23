@@ -14,6 +14,8 @@ import org.openqa.selenium.WebElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.Map;
+
 public class AlbumsPhotosSteps {
     private WebDriver driver;
     private AlbumsPhotosPage albumsPhotosPage;
@@ -39,17 +41,15 @@ public class AlbumsPhotosSteps {
     @Then("I validate the data for the object with id = 6")
     public void validateObjectWithId() {
         int id = 6;
+        Map<String, Object> album = albumsPhotosPage.getAlbumById(id);
+
         String expectedTitle = "accusamus ea aliquid et amet sequi nemo";
         String expectedUrl = "https://via.placeholder.com/600/56a8c2";
         String expectedThumbnailUrl = "https://via.placeholder.com/150/56a8c2";
 
-        String actualTitle = albumsPhotosPage.getAlbumTitleById(id);
-        String actualUrl = albumsPhotosPage.getAlbumUrlById(id);
-        String actualThumbnailUrl = albumsPhotosPage.getAlbumThumbnailUrlById(id);
-
-        Assert.assertEquals("Title does not match", expectedTitle, actualTitle);
-        Assert.assertEquals("URL does not match", expectedUrl, actualUrl);
-        Assert.assertEquals("Thumbnail URL does not match", expectedThumbnailUrl, actualThumbnailUrl);
+        Assert.assertEquals("Title does not match", expectedTitle, album.get("title"));
+        Assert.assertEquals("URL does not match", expectedUrl, album.get("url"));
+        Assert.assertEquals("Thumbnail URL does not match", expectedThumbnailUrl, album.get("thumbnailUrl"));
 
     }
 
