@@ -35,8 +35,6 @@ jobs:
         if: success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          keep_files: true
-          allow_empty_commit: true
-          force_orphan: true
-          path: target/site/allure-maven-plugin
-          commit_message: Deploy Allure report to GitHub Pages
+          publish_branch: gh-pages
+          publish_dir: ./target/site/allure-maven-plugin
+
