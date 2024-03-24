@@ -9,10 +9,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "89e8186ff42fa3c2",
+      "uid" : "a1fcff41600993a",
       "status" : "passed",
       "time" : {
-        "duration" : 152
+        "duration" : 137
       }
     } ]
   },
@@ -26,7 +26,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22f354547d9dadb4",
+      "uid" : "aa4d57b1e3c165dd",
       "status" : "passed",
       "time" : {
         "duration" : 5303
@@ -43,10 +43,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24baa323ab27c0cd",
+      "uid" : "7c6242713ab7278c",
       "status" : "passed",
       "time" : {
-        "duration" : 1715
+        "duration" : 1608
       }
     } ]
   },
@@ -60,10 +60,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "90d0e3f7df49b719",
+      "uid" : "322ac7dc668d0ed6",
       "status" : "passed",
       "time" : {
-        "duration" : 196
+        "duration" : 187
       }
     } ]
   }
