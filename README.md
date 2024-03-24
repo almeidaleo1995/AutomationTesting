@@ -13,44 +13,40 @@ This project is designed to run automated tests using Maven and generate Allure 
 
 ### Instructions
 
-#### Step 1: Clone the Repository
+1. Clone this repository to your local machine:
 
-```bash
-  git clone https://github.com/almeidaleo1995/AutomationTesting.git
+   ```bash
+   git clone https://github.com/almeidaleo1995/ApiTestsPytest.git
 
-```bash
-cd AutomationTesting
+2. Navigate to the project directory:
 
-#### Step 2: Run End-to-End Tests
-```bash
-  mvn -Dtest=E2ETestRunner test
+   ```bash
+   cd AutomationTesting
 
+3. Running E2E tests:
+    ```bash
+     mvn -Dtest=E2ETestRunner test
 
-### Step 3: Run API Tests
-echo "Step 3: Running API tests..."
-mvn -Dtest=ApiTestRunner test
-echo "API tests completed."
-
-### Step 4: Generate Allure Reports (Windows)
-echo "Step 4: Generating Allure report for Windows..."
-# Replace with actual command if necessary
-./openAllure.bat
-echo "Allure report generated for Windows."
-
-### Step 4 Alternative: Generate Allure Reports (macOS/Linux)
-echo "Step 4 Alternative: Generating Allure report for macOS/Linux..."
-### Replace with actual command if necessary
-./generate-report.sh
-echo "Allure report generated for macOS/Linux."
-
-### End of script
-echo "All steps completed successfully."
-
+4. Run API Tests:
+    ```bash
+    mvn -Dtest=ApiTestRunner test
+    
+5. Generate Allure Reports:
+On Windows:
+    ```bash
+    
+   ./openAllure.bat
+    
+On Linux/Mac:
+    ```bash
+    
+      chmod +x /path/to/generate-report.sh
+     ./generate-report.sh
 
 ## Running Tests with GitHub Actions
 The tests are automatically triggered on GitHub Actions with each push or pull request to the master branch. The results are published to GitHub Pages and can be viewed at:
-
-[AutomationTesting Report](https://almeidaleo1995.github.io/AutomationTesting/)
+  ###Viewing the Report on GitHub Pages
+  [AutomationTesting Report](https://almeidaleo1995.github.io/AutomationTesting/)
 
 
 ## Project Structure
