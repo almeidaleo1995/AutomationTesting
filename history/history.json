@@ -1,0 +1,70 @@
+{
+  "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Create a new user with POST request" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5800eaf60cabd0a9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 88
+      }
+    } ]
+  },
+  "io.cucumber.core.plugin.JUnitFormatter:Navigation and data validation on JsonPlaceholder#Access /albums/1/photos and validate data" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbf62d0d13e7e786",
+      "status" : "passed",
+      "time" : {
+        "duration" : 5303
+      }
+    } ]
+  },
+  "io.cucumber.core.plugin.JUnitFormatter:API Testing comments for JsonPlaceholder#Get a comment by name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e00f6dfa95d636",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1755
+      }
+    } ]
+  },
+  "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Update a user with PUT request" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ad78091fbebf95c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 125
+      }
+    } ]
+  }
+}

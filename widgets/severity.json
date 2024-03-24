@@ -1,0 +1,33 @@
+[ {
+  "uid" : "5800eaf60cabd0a9",
+  "name" : "Create a new user with POST request",
+  "time" : {
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e00f6dfa95d636",
+  "name" : "Get a comment by name",
+  "time" : {
+    "duration" : 1755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbf62d0d13e7e786",
+  "name" : "Access /albums/1/photos and validate data",
+  "time" : {
+    "duration" : 5303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ad78091fbebf95c",
+  "name" : "Update a user with PUT request",
+  "time" : {
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

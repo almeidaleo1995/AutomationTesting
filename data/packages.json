@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "API Testing users for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Update a user with PUT request",
+      "uid" : "2ad78091fbebf95c",
+      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
+      "status" : "passed",
+      "time" : {
+        "duration" : 125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create a new user with POST request",
+      "uid" : "5800eaf60cabd0a9",
+      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
+      "status" : "passed",
+      "time" : {
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7ca24c6fac122233285c8220f1ffea17"
+  }, {
+    "name" : "Navigation and data validation on JsonPlaceholder",
+    "children" : [ {
+      "name" : "Access /albums/1/photos and validate data",
+      "uid" : "cbf62d0d13e7e786",
+      "parentUid" : "9eaec04e5b43c600e5b35e9d54e33b0d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 5303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9eaec04e5b43c600e5b35e9d54e33b0d"
+  }, {
+    "name" : "API Testing comments for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Get a comment by name",
+      "uid" : "3e00f6dfa95d636",
+      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
+  } ]
+}
