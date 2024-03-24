@@ -30,6 +30,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    - name: Test with Maven
-      run: mvn -B test --file pom.xml
+    - name: Run tests with Maven
+      run: mvn -Dtest=E2ETestRunner test
 
