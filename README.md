@@ -53,4 +53,17 @@ The tests are automatically triggered on GitHub Actions with each push or pull r
 -src: Contains the test source code.
 -pom.xml: Maven configuration file.
 -.github/workflows: Contains the GitHub Actions YAML configuration file.
--target: Directory where Maven stores the build output, including Allure report files.
+-target: Directory where Maven stores the build output, including Allure report files
+
+## Contributing     
+If you would like to contribute to this project, please follow the standard GitHub workflow:
+
+1.Fork the repository.
+
+2.Create a new branch for your feature or bug fix.
+
+3.Make your changes and commit them.
+
+4.Push your changes to your fork.
+
+5.Create a pull request to the main repository.
