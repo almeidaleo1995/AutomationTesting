@@ -2,33 +2,14 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "API Testing comments for JsonPlaceholder",
-    "children" : [ {
-      "name" : "Get a comment by name",
-      "uid" : "7c6242713ab7278c",
-      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1608
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
-  }, {
     "name" : "API Testing users for JsonPlaceholder",
     "children" : [ {
       "name" : "Create a new user with POST request",
-      "uid" : "a1fcff41600993a",
+      "uid" : "bbeddf8ac02ecb2e",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 137
+        "duration" : 147
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,11 +20,11 @@
       "parameters" : [ ]
     }, {
       "name" : "Update a user with PUT request",
-      "uid" : "322ac7dc668d0ed6",
+      "uid" : "b24a84a8e9f6b2b7",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 187
+        "duration" : 148
       },
       "flaky" : false,
       "newFailed" : false,
@@ -58,7 +39,7 @@
     "name" : "Navigation and data validation on JsonPlaceholder",
     "children" : [ {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "aa4d57b1e3c165dd",
+      "uid" : "1546e6068674cd02",
       "parentUid" : "9eaec04e5b43c600e5b35e9d54e33b0d",
       "status" : "passed",
       "time" : {
@@ -73,5 +54,24 @@
       "parameters" : [ ]
     } ],
     "uid" : "9eaec04e5b43c600e5b35e9d54e33b0d"
+  }, {
+    "name" : "API Testing comments for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Get a comment by name",
+      "uid" : "a05d046fefcafece",
+      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
   } ]
 }
