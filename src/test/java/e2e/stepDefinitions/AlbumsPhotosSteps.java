@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.util.Map;
 
@@ -22,7 +23,9 @@ public class AlbumsPhotosSteps {
     public AlbumsPhotosSteps() {
 
         WebDriverManager.firefoxdriver().setup();
-        driver = new FirefoxDriver();
+        FirefoxOptions options = new FirefoxOptions();
+        options.setHeadless(true); // ativa o modo headless
+        driver = new FirefoxDriver(options);
         albumsPhotosPage = new AlbumsPhotosPage(driver);
     }
 
