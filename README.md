@@ -1,6 +1,6 @@
 # AutomationTesting Project
 
-This project is designed to run automated tests using Maven and generate Allure reports. The reports can be viewed locally after running the tests or on GitHub Pages following each GitHub Actions build.
+This project is designed to run automated tests using Maven and generate Allure Reports. The reports can be viewed locally after running the tests or on GitHub Pages following each GitHub Actions build.
 
 ## Running Tests Locally
 
@@ -11,13 +11,14 @@ This project is designed to run automated tests using Maven and generate Allure 
 - Firefox and Geckodriver (or another browser with its corresponding driver)
 - Allure Commandline
 
-## Instructions
+### Instructions
 
-### Step 1: Clone the Repository
-echo "Step 1: Cloning the repository..."
+#### Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/almeidaleo1995/AutomationTesting.git
 cd AutomationTesting
-echo "Repository cloned successfully."
+
 
 ### Step 2: Run End-to-End Tests
 echo "Step 2: Running E2E tests..."
