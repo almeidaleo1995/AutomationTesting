@@ -1,9 +1,9 @@
 {
-  "uid" : "c6e6387469b99af6",
+  "uid" : "1527396a7b7f98dc",
   "name" : "Create a new user with POST request",
   "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Create a new user with POST request",
   "time" : {
-    "duration" : 79
+    "duration" : 112
   },
   "status" : "passed",
   "flaky" : false,
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6e6387469b99af6.json",
+  "source" : "1527396a7b7f98dc.json",
   "parameterValues" : [ ]
 }

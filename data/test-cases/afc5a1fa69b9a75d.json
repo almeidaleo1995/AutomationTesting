@@ -1,9 +1,9 @@
 {
-  "uid" : "6f2091609f6ad9aa",
-  "name" : "Access /albums/1/photos and validate data",
-  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:Navigation and data validation on JsonPlaceholder#Access /albums/1/photos and validate data",
+  "uid" : "afc5a1fa69b9a75d",
+  "name" : "Update a user with PUT request",
+  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Update a user with PUT request",
   "time" : {
-    "duration" : 5303
+    "duration" : 193
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,7 +15,7 @@
   "beforeStages" : [ ],
   "testStage" : {
     "steps" : [ {
-      "name" : "Given I am on the JsonPlaceholder guide page................................passed",
+      "name" : "Given I set PUT user service endpoint for user with id 5....................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -25,7 +25,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I navigate to the link and open it.....................................passed",
+      "name" : "When I update email, latitude and longitude of the user.....................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -35,7 +35,17 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I validate the data for the object with id = 6.........................passed",
+      "name" : "Then I should receive user api status code 200..............................passed",
+      "time" : { },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I should see the updated email, latitude and longitude..................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -47,7 +57,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -61,10 +71,10 @@
     "value" : "io.cucumber.core.plugin.JUnitFormatter"
   }, {
     "name" : "testClass",
-    "value" : "Navigation and data validation on JsonPlaceholder"
+    "value" : "API Testing users for JsonPlaceholder"
   }, {
     "name" : "package",
-    "value" : "Navigation and data validation on JsonPlaceholder"
+    "value" : "API Testing users for JsonPlaceholder"
   } ],
   "parameters" : [ ],
   "links" : [ ],
@@ -76,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6f2091609f6ad9aa.json",
+  "source" : "afc5a1fa69b9a75d.json",
   "parameterValues" : [ ]
 }
