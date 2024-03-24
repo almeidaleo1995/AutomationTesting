@@ -2,63 +2,10 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "API Testing comments for JsonPlaceholder",
-    "children" : [ {
-      "name" : "Get a comment by name",
-      "uid" : "f0d5fc270c30bce3",
-      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1682
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
-  }, {
-    "name" : "API Testing users for JsonPlaceholder",
-    "children" : [ {
-      "name" : "Update a user with PUT request",
-      "uid" : "e5c8fbe6e0c28a43",
-      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
-      "status" : "passed",
-      "time" : {
-        "duration" : 199
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create a new user with POST request",
-      "uid" : "bb1505103a83ee0d",
-      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
-      "status" : "passed",
-      "time" : {
-        "duration" : 151
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "7ca24c6fac122233285c8220f1ffea17"
-  }, {
     "name" : "Navigation and data validation on JsonPlaceholder",
     "children" : [ {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "e39ca31a8a794781",
+      "uid" : "22f354547d9dadb4",
       "parentUid" : "9eaec04e5b43c600e5b35e9d54e33b0d",
       "status" : "passed",
       "time" : {
@@ -73,5 +20,58 @@
       "parameters" : [ ]
     } ],
     "uid" : "9eaec04e5b43c600e5b35e9d54e33b0d"
+  }, {
+    "name" : "API Testing comments for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Get a comment by name",
+      "uid" : "24baa323ab27c0cd",
+      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1715
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
+  }, {
+    "name" : "API Testing users for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Create a new user with POST request",
+      "uid" : "89e8186ff42fa3c2",
+      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
+      "status" : "passed",
+      "time" : {
+        "duration" : 152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update a user with PUT request",
+      "uid" : "90d0e3f7df49b719",
+      "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
+      "status" : "passed",
+      "time" : {
+        "duration" : 196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7ca24c6fac122233285c8220f1ffea17"
   } ]
 }
