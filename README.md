@@ -16,14 +16,15 @@ This project is designed to run automated tests using Maven and generate Allure 
 #### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/almeidaleo1995/AutomationTesting.git
+  git clone https://github.com/almeidaleo1995/AutomationTesting.git
+
+```bash
 cd AutomationTesting
 
+#### Step 2: Run End-to-End Tests
+```bash
+  mvn -Dtest=E2ETestRunner test
 
-### Step 2: Run End-to-End Tests
-echo "Step 2: Running E2E tests..."
-mvn -Dtest=E2ETestRunner test
-echo "E2E tests completed."
 
 ### Step 3: Run API Tests
 echo "Step 3: Running API tests..."
