@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","","","85","","io.cucumber.core.plugin.JUnitFormatter","","API Testing users for JsonPlaceholder","","Create a new user with POST request",""
 "passed","","","130","","io.cucumber.core.plugin.JUnitFormatter","","API Testing users for JsonPlaceholder","","Update a user with PUT request",""
 "passed","","","5303","","io.cucumber.core.plugin.JUnitFormatter","","Navigation and data validation on JsonPlaceholder","","Access /albums/1/photos and validate data",""
-"passed","","","1669","","io.cucumber.core.plugin.JUnitFormatter","","API Testing comments for JsonPlaceholder","","Get a comment by name",""
-"passed","","","94","","io.cucumber.core.plugin.JUnitFormatter","","API Testing users for JsonPlaceholder","","Create a new user with POST request",""
+"passed","","","1628","","io.cucumber.core.plugin.JUnitFormatter","","API Testing comments for JsonPlaceholder","","Get a comment by name",""

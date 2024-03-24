@@ -1,9 +1,9 @@
 {
-  "uid" : "c6b02eb83d736e6c",
-  "name" : "Update a user with PUT request",
-  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Update a user with PUT request",
+  "uid" : "749bef633666ad",
+  "name" : "Create a new user with POST request",
+  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Create a new user with POST request",
   "time" : {
-    "duration" : 130
+    "duration" : 85
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,7 +15,7 @@
   "beforeStages" : [ ],
   "testStage" : {
     "steps" : [ {
-      "name" : "Given I set PUT user service endpoint for user with id 5....................passed",
+      "name" : "Given I set POST user service endpoint......................................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -25,7 +25,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I update email, latitude and longitude of the user.....................passed",
+      "name" : "When I send a POST HTTP request.............................................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -35,7 +35,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should receive user api status code 200..............................passed",
+      "name" : "Then I should receive user api status code 201..............................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -45,7 +45,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "And I should see the updated email, latitude and longitude..................passed",
+      "name" : "And I should receive a valid user ID in response............................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6b02eb83d736e6c.json",
+  "source" : "749bef633666ad.json",
   "parameterValues" : [ ]
 }
