@@ -81,6 +81,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>2.17.2</reportVersion>
+                    <resultsDirectory>${project.basedir}/src/test/resources/results</resultsDirectory>
                 </configuration>
                 <executions>
                     <execution>
