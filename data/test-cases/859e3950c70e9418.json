@@ -1,9 +1,9 @@
 {
-  "uid" : "d71a16c9cc184be2",
-  "name" : "Get a comment by name",
-  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing comments for JsonPlaceholder#Get a comment by name",
+  "uid" : "859e3950c70e9418",
+  "name" : "Access /albums/1/photos and validate data",
+  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:Navigation and data validation on JsonPlaceholder#Access /albums/1/photos and validate data",
   "time" : {
-    "duration" : 1588
+    "duration" : 5303
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,7 +15,7 @@
   "beforeStages" : [ ],
   "testStage" : {
     "steps" : [ {
-      "name" : "Given I set GET comments service endpoint...................................passed",
+      "name" : "Given I am on the JsonPlaceholder guide page................................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -25,7 +25,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I search a comment by the name \"alias odio sit\"........................passed",
+      "name" : "When I navigate to the link and open it.....................................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -35,17 +35,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should receive status code 200.......................................passed",
-      "time" : { },
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "And I should see the email associated with the name.........................passed",
+      "name" : "Then I validate the data for the object with id = 6.........................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -57,7 +47,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -71,10 +61,10 @@
     "value" : "io.cucumber.core.plugin.JUnitFormatter"
   }, {
     "name" : "testClass",
-    "value" : "API Testing comments for JsonPlaceholder"
+    "value" : "Navigation and data validation on JsonPlaceholder"
   }, {
     "name" : "package",
-    "value" : "API Testing comments for JsonPlaceholder"
+    "value" : "Navigation and data validation on JsonPlaceholder"
   } ],
   "parameters" : [ ],
   "links" : [ ],
@@ -86,6 +76,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d71a16c9cc184be2.json",
+  "source" : "859e3950c70e9418.json",
   "parameterValues" : [ ]
 }
