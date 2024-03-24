@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","","","8507","","io.cucumber.core.plugin.JUnitFormatter","","Navigation and data validation on JsonPlaceholder","","Access /albums/1/photos and validate data",""

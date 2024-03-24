@@ -1,0 +1,1 @@
+{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"Access /albums/1/photos and validate data","uid":"137603862ab67043","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":8507},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}]}

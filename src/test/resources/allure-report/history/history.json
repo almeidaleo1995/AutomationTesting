@@ -1,0 +1,1 @@
+{"io.cucumber.core.plugin.JUnitFormatter:Navigation and data validation on JsonPlaceholder#Access /albums/1/photos and validate data":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"137603862ab67043","status":"passed","time":{"duration":8507}}]}}

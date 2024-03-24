@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/e2e",
         glue = "e2e.stepDefinitions",
-        plugin = {"pretty", "html:target/cucumber-reports"},
+        plugin = { "pretty", "junit:src/test/resources/results/Cucumber.xml" },
         monochrome = true
 )
 
