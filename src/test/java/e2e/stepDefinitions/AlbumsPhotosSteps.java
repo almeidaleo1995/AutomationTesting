@@ -20,10 +20,10 @@ public class AlbumsPhotosSteps {
     private WebDriver driver;
     private AlbumsPhotosPage albumsPhotosPage;
     public AlbumsPhotosSteps() {
-
         WebDriverManager.firefoxdriver().setup();
-        driver = new FirefoxDriver();
-        albumsPhotosPage = new AlbumsPhotosPage(driver);
+        FirefoxOptions options = new FirefoxOptions();
+        options.setHeadless(true); 
+        driver = new FirefoxDriver(options
     }
 
     @Given("I am on the JsonPlaceholder guide page")
