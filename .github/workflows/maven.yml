@@ -32,7 +32,8 @@ jobs:
       
     - name: Install Firefox
       run: sudo apt-get update && sudo apt-get install -y firefox
-
+    - name: Check Firefox version
+      run: firefox --version
     - name: Run tests with Maven
       run: mvn -Dtest=E2ETestRunner test 
 
