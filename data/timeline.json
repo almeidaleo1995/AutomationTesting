@@ -2,27 +2,12 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "Create a new user with POST request",
-    "uid" : "1527396a7b7f98dc",
+    "name" : "Access /albums/1/photos and validate data",
+    "uid" : "9ab1972c9f739f1c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 112
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Update a user with PUT request",
-    "uid" : "afc5a1fa69b9a75d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 193
+      "duration" : 5303
     },
     "flaky" : false,
     "newFailed" : false,
@@ -33,11 +18,11 @@
     "parameters" : [ ]
   }, {
     "name" : "Get a comment by name",
-    "uid" : "7f05c476ab8b34ac",
+    "uid" : "bfb9000d04d7eff6",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 1742
+      "duration" : 1568
     },
     "flaky" : false,
     "newFailed" : false,
@@ -47,12 +32,27 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Access /albums/1/photos and validate data",
-    "uid" : "404da058d154a2c2",
+    "name" : "Update a user with PUT request",
+    "uid" : "9241f607811b6e0e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 5303
+      "duration" : 331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a new user with POST request",
+    "uid" : "6d38742c15e46c76",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 276
     },
     "flaky" : false,
     "newFailed" : false,

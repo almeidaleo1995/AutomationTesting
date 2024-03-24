@@ -1,9 +1,9 @@
 {
-  "uid" : "afc5a1fa69b9a75d",
+  "uid" : "9241f607811b6e0e",
   "name" : "Update a user with PUT request",
   "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Update a user with PUT request",
   "time" : {
-    "duration" : 193
+    "duration" : 331
   },
   "status" : "passed",
   "flaky" : false,
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "afc5a1fa69b9a75d.json",
+  "source" : "9241f607811b6e0e.json",
   "parameterValues" : [ ]
 }
