@@ -32,16 +32,17 @@ This project is designed to run automated tests using Maven and generate Allure 
     mvn -Dtest=ApiTestRunner test
     
 5. Generate Allure Reports:
-On Windows:
-    ```bash
-    
-   ./openAllure.bat
-    
-On Linux/Mac:
-    ```bash
-    
-      chmod +x /path/to/generate-report.sh
-     ./generate-report.sh
+   
+   On Windows:
+       ```bash
+       
+      ./openAllure.bat
+       
+   On Linux/Mac:
+       ```bash
+       
+         chmod +x /path/to/generate-report.sh
+        ./generate-report.sh
 
 ## Running Tests with GitHub Actions
 The tests are automatically triggered on GitHub Actions with each push or pull request to the master branch. The results are published to GitHub Pages and can be viewed at:
