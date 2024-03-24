@@ -4,12 +4,12 @@
   "children" : [ {
     "name" : "io.cucumber.core.plugin.JUnitFormatter",
     "children" : [ {
-      "name" : "Create a new user with POST request",
-      "uid" : "c5abf84e290294a2",
+      "name" : "Get a comment by name",
+      "uid" : "a90068c059de10be",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 98
+        "duration" : 1901
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,12 +19,12 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Access /albums/1/photos and validate data",
-      "uid" : "ead0c6dfcbdae24c",
+      "name" : "Create a new user with POST request",
+      "uid" : "9d76ca05bfd35d48",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 5303
+        "duration" : 154
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,11 +35,11 @@
       "parameters" : [ ]
     }, {
       "name" : "Update a user with PUT request",
-      "uid" : "678958139f394ccb",
+      "uid" : "7e18f1b4fb07618c",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 194
+        "duration" : 372
       },
       "flaky" : false,
       "newFailed" : false,
@@ -49,12 +49,12 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Get a comment by name",
-      "uid" : "7e04614e720bef3a",
+      "name" : "Access /albums/1/photos and validate data",
+      "uid" : "ca896fa059ca7b6a",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 1856
+        "duration" : 5303
       },
       "flaky" : false,
       "newFailed" : false,

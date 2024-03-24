@@ -1,32 +1,32 @@
 [ {
-  "uid" : "c5abf84e290294a2",
-  "name" : "Create a new user with POST request",
+  "uid" : "a90068c059de10be",
+  "name" : "Get a comment by name",
   "time" : {
-    "duration" : 98
+    "duration" : 1901
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ead0c6dfcbdae24c",
+  "uid" : "9d76ca05bfd35d48",
+  "name" : "Create a new user with POST request",
+  "time" : {
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e18f1b4fb07618c",
+  "name" : "Update a user with PUT request",
+  "time" : {
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca896fa059ca7b6a",
   "name" : "Access /albums/1/photos and validate data",
   "time" : {
     "duration" : 5303
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "678958139f394ccb",
-  "name" : "Update a user with PUT request",
-  "time" : {
-    "duration" : 194
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7e04614e720bef3a",
-  "name" : "Get a comment by name",
-  "time" : {
-    "duration" : 1856
   },
   "status" : "passed",
   "severity" : "normal"
