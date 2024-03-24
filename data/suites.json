@@ -4,38 +4,8 @@
   "children" : [ {
     "name" : "io.cucumber.core.plugin.JUnitFormatter",
     "children" : [ {
-      "name" : "Create a new user with POST request",
-      "uid" : "bbeddf8ac02ecb2e",
-      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
-      "status" : "passed",
-      "time" : {
-        "duration" : 147
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Update a user with PUT request",
-      "uid" : "b24a84a8e9f6b2b7",
-      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
-      "status" : "passed",
-      "time" : {
-        "duration" : 148
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "1546e6068674cd02",
+      "uid" : "c081ba78a4a38ea2",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
@@ -49,12 +19,42 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Get a comment by name",
-      "uid" : "a05d046fefcafece",
+      "name" : "Update a user with PUT request",
+      "uid" : "cc8a031893d77bc3",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 1600
+        "duration" : 190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get a comment by name",
+      "uid" : "615a96e78ae768f8",
+      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create a new user with POST request",
+      "uid" : "d86973f046dce5e4",
+      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
+      "status" : "passed",
+      "time" : {
+        "duration" : 142
       },
       "flaky" : false,
       "newFailed" : false,

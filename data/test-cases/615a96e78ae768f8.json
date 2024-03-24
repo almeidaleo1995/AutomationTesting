@@ -1,9 +1,9 @@
 {
-  "uid" : "a05d046fefcafece",
+  "uid" : "615a96e78ae768f8",
   "name" : "Get a comment by name",
   "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing comments for JsonPlaceholder#Get a comment by name",
   "time" : {
-    "duration" : 1600
+    "duration" : 1607
   },
   "status" : "passed",
   "flaky" : false,
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a05d046fefcafece.json",
+  "source" : "615a96e78ae768f8.json",
   "parameterValues" : [ ]
 }
