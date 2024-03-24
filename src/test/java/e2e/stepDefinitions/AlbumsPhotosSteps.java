@@ -24,13 +24,13 @@ public class AlbumsPhotosSteps {
 
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true); // ativa o modo headless
+        options.setHeadless(true);
         driver = new FirefoxDriver(options);
         albumsPhotosPage = new AlbumsPhotosPage(driver);
     }
 
     @Given("I am on the JsonPlaceholder guide page")
-    public void i_am_on_the_JsonPlaceholder_guide_page() {
+    public void onTheJsonPlaceholderPage() {
         driver.get("https://jsonplaceholder.typicode.com/guide/");
     }
 
