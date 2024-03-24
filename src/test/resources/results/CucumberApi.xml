@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="2.622">
-    <testcase classname="API Testing comments for JsonPlaceholder" name="Get a comment by name" time="1.741">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="2.956">
+    <testcase classname="API Testing comments for JsonPlaceholder" name="Get a comment by name" time="1.744">
         <system-out><![CDATA[Given I set GET comments service endpoint...................................passed
 When I search a comment by the name "alias odio sit"........................passed
 Then I should receive status code 200.......................................passed
 And I should see the email associated with the name.........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="API Testing users for JsonPlaceholder" name="Create a new user with POST request" time="0.231">
+    <testcase classname="API Testing users for JsonPlaceholder" name="Create a new user with POST request" time="0.519">
         <system-out><![CDATA[Given I set POST user service endpoint......................................passed
 When I send a POST HTTP request.............................................passed
 Then I should receive user api status code 201..............................passed
 And I should receive a valid user ID in response............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="API Testing users for JsonPlaceholder" name="Update a user with PUT request" time="0.518">
+    <testcase classname="API Testing users for JsonPlaceholder" name="Update a user with PUT request" time="0.514">
         <system-out><![CDATA[Given I set PUT user service endpoint for user with id 5....................passed
 When I update email, latitude and longitude of the user.....................passed
 Then I should receive user api status code 200..............................passed
