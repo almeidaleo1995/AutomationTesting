@@ -3,7 +3,7 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "Access /albums/1/photos and validate data",
-    "uid" : "9ab1972c9f739f1c",
+    "uid" : "ead0c6dfcbdae24c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -17,12 +17,12 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Get a comment by name",
-    "uid" : "bfb9000d04d7eff6",
+    "name" : "Update a user with PUT request",
+    "uid" : "678958139f394ccb",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 1568
+      "duration" : 194
     },
     "flaky" : false,
     "newFailed" : false,
@@ -32,12 +32,12 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Update a user with PUT request",
-    "uid" : "9241f607811b6e0e",
+    "name" : "Get a comment by name",
+    "uid" : "7e04614e720bef3a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 331
+      "duration" : 1856
     },
     "flaky" : false,
     "newFailed" : false,
@@ -48,11 +48,11 @@
     "parameters" : [ ]
   }, {
     "name" : "Create a new user with POST request",
-    "uid" : "6d38742c15e46c76",
+    "uid" : "c5abf84e290294a2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "duration" : 276
+      "duration" : 98
     },
     "flaky" : false,
     "newFailed" : false,
