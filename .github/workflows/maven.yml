@@ -33,12 +33,14 @@ jobs:
     - name: Install Firefox
       run: sudo apt-get update && sudo apt-get install -y firefox
 
-    - name: Install geckodriv
-      run: wget https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz && tar -xzf geckodriver-v0.31.0-linux64.tar.gz && sudo mv geckodriver /usr/local/bin/
-
+    - name: Install geckodriver
+      run: |
+        wget https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz
+        tar -xzf geckodriver-v0.31.0-linux64.tar.gz
+        sudo mv geckodriver /usr/local/bin/
+        echo $PATH
+        which geckodriver
+        
     - name: Run tests with Maven
       run: mvn -Dtest=E2ETestRunner test 
 
-    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Update dependency graph
-      uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
