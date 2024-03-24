@@ -33,14 +33,6 @@ jobs:
     - name: Install Firefox
       run: sudo apt-get update && sudo apt-get install -y firefox
 
-    - name: Install geckodriver
-      run: |
-        wget https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz
-        tar -xzf geckodriver-v0.31.0-linux64.tar.gz
-        sudo mv geckodriver /usr/local/bin/
-        echo $PATH
-        which geckodriver
-        
     - name: Run tests with Maven
       run: mvn -Dtest=E2ETestRunner test 
 
