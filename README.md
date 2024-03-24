@@ -34,10 +34,10 @@ This project is designed to run automated tests using Maven and generate Allure 
 5. Generate Allure Reports:
    
    On Windows:
-       ```bash
+         ```bash
        
-      ./openAllure.bat
-       
+         .\openAllure.bat
+
    On Linux/Mac:
        ```bash
        
