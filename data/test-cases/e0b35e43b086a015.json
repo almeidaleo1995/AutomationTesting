@@ -1,5 +1,5 @@
 {
-  "uid" : "cbf62d0d13e7e786",
+  "uid" : "e0b35e43b086a015",
   "name" : "Access /albums/1/photos and validate data",
   "historyId" : "io.cucumber.core.plugin.JUnitFormatter:Navigation and data validation on JsonPlaceholder#Access /albums/1/photos and validate data",
   "time" : {
@@ -76,6 +76,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cbf62d0d13e7e786.json",
+  "source" : "e0b35e43b086a015.json",
   "parameterValues" : [ ]
 }

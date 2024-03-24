@@ -4,12 +4,12 @@
   "children" : [ {
     "name" : "API Testing users for JsonPlaceholder",
     "children" : [ {
-      "name" : "Update a user with PUT request",
-      "uid" : "2ad78091fbebf95c",
+      "name" : "Create a new user with POST request",
+      "uid" : "2ef7f149e14424dd",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 125
+        "duration" : 107
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,12 +19,12 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Create a new user with POST request",
-      "uid" : "5800eaf60cabd0a9",
+      "name" : "Update a user with PUT request",
+      "uid" : "783c9a34c9ae501b",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 88
+        "duration" : 137
       },
       "flaky" : false,
       "newFailed" : false,
@@ -36,10 +36,29 @@
     } ],
     "uid" : "7ca24c6fac122233285c8220f1ffea17"
   }, {
+    "name" : "API Testing comments for JsonPlaceholder",
+    "children" : [ {
+      "name" : "Get a comment by name",
+      "uid" : "d71a16c9cc184be2",
+      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
+  }, {
     "name" : "Navigation and data validation on JsonPlaceholder",
     "children" : [ {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "cbf62d0d13e7e786",
+      "uid" : "e0b35e43b086a015",
       "parentUid" : "9eaec04e5b43c600e5b35e9d54e33b0d",
       "status" : "passed",
       "time" : {
@@ -54,24 +73,5 @@
       "parameters" : [ ]
     } ],
     "uid" : "9eaec04e5b43c600e5b35e9d54e33b0d"
-  }, {
-    "name" : "API Testing comments for JsonPlaceholder",
-    "children" : [ {
-      "name" : "Get a comment by name",
-      "uid" : "3e00f6dfa95d636",
-      "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1755
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "2d496491a33b78af2e3d6e3a7518e68e"
   } ]
 }
