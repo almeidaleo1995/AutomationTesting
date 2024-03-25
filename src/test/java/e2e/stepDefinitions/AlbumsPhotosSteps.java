@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import java.io.IOException;
 import java.util.Map;
 
 public class AlbumsPhotosSteps {
@@ -42,7 +43,7 @@ public class AlbumsPhotosSteps {
 
 
     @Then("I validate the data for the object with id = 6")
-    public void validateObjectWithId() {
+    public void validateObjectWithId() throws IOException {
         int id = 6;
         Map<String, Object> album = albumsPhotosPage.getAlbumById(id);
 
