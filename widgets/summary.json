@@ -10,8 +10,8 @@
     "total" : 4
   },
   "time" : {
-    "minDuration" : 250,
+    "minDuration" : 243,
     "maxDuration" : 11923,
-    "sumDuration" : 14331
+    "sumDuration" : 14081
   }
 }
