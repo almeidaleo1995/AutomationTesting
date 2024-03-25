@@ -42,6 +42,14 @@ This project is designed to run automated tests using Maven and generate Allure 
          chmod +x /path/to/generate-report.sh
         ./generate-report.sh
 
+
+   
+  6. Copy Json E2E test:
+       
+         src/test/resources/jsonFile/executor.json
+       
+         
+src/test/resources/jsonFile/executor.json
 ## Running Tests with GitHub Actions
 The tests are automatically triggered on GitHub Actions with each push or pull request to the master branch. The results are published to GitHub Pages and can be viewed at:
   ###Viewing the Report on GitHub Pages
