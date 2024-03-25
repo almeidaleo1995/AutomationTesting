@@ -5,11 +5,11 @@
     "name" : "API Testing comments for JsonPlaceholder",
     "children" : [ {
       "name" : "Get a comment by name",
-      "uid" : "c177e085c4185a67",
+      "uid" : "10c64e325bd941f7",
       "parentUid" : "2d496491a33b78af2e3d6e3a7518e68e",
       "status" : "passed",
       "time" : {
-        "duration" : 1890
+        "duration" : 1866
       },
       "flaky" : false,
       "newFailed" : false,
@@ -23,12 +23,12 @@
   }, {
     "name" : "API Testing users for JsonPlaceholder",
     "children" : [ {
-      "name" : "Update a user with PUT request",
-      "uid" : "52fb0f5bf585d5c3",
+      "name" : "Create a new user with POST request",
+      "uid" : "c9dbda35043c9ae8",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 346
+        "duration" : 250
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,12 +38,12 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Create a new user with POST request",
-      "uid" : "9775ee2e12b7dd94",
+      "name" : "Update a user with PUT request",
+      "uid" : "595e2bc81b3257e4",
       "parentUid" : "7ca24c6fac122233285c8220f1ffea17",
       "status" : "passed",
       "time" : {
-        "duration" : 320
+        "duration" : 292
       },
       "flaky" : false,
       "newFailed" : false,
@@ -58,11 +58,11 @@
     "name" : "Navigation and data validation on JsonPlaceholder",
     "children" : [ {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "4ff35d81dd04b93c",
+      "uid" : "41f2f8e1c045f13a",
       "parentUid" : "9eaec04e5b43c600e5b35e9d54e33b0d",
       "status" : "passed",
       "time" : {
-        "duration" : 5303
+        "duration" : 11923
       },
       "flaky" : false,
       "newFailed" : false,

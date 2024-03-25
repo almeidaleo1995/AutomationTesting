@@ -5,26 +5,11 @@
     "name" : "io.cucumber.core.plugin.JUnitFormatter",
     "children" : [ {
       "name" : "Get a comment by name",
-      "uid" : "c177e085c4185a67",
+      "uid" : "10c64e325bd941f7",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 1890
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Update a user with PUT request",
-      "uid" : "52fb0f5bf585d5c3",
-      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
-      "status" : "passed",
-      "time" : {
-        "duration" : 346
+        "duration" : 1866
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,11 +20,26 @@
       "parameters" : [ ]
     }, {
       "name" : "Create a new user with POST request",
-      "uid" : "9775ee2e12b7dd94",
+      "uid" : "c9dbda35043c9ae8",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 320
+        "duration" : 250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update a user with PUT request",
+      "uid" : "595e2bc81b3257e4",
+      "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
+      "status" : "passed",
+      "time" : {
+        "duration" : 292
       },
       "flaky" : false,
       "newFailed" : false,
@@ -50,11 +50,11 @@
       "parameters" : [ ]
     }, {
       "name" : "Access /albums/1/photos and validate data",
-      "uid" : "4ff35d81dd04b93c",
+      "uid" : "41f2f8e1c045f13a",
       "parentUid" : "b52ac3065d371d5593346e40c6eb53c4",
       "status" : "passed",
       "time" : {
-        "duration" : 5303
+        "duration" : 11923
       },
       "flaky" : false,
       "newFailed" : false,
