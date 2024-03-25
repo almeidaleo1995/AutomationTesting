@@ -34,7 +34,7 @@ public class AlbumsPhotosPage {
         WebElement jsonElement = driver.findElement(By.xpath("/html/body/div[1]"));
         String json = jsonElement.getText();
 
-        saveDataToJsonFile(json); // Chama o método de salvamento logo após capturar o JSON
+        saveDataToJsonFile(json);
 
         Type listType = new TypeToken<List<Map<String, Object>>>() {}.getType();
         List<Map<String, Object>> albums = gson.fromJson(json, listType);
@@ -46,14 +46,11 @@ public class AlbumsPhotosPage {
     }
 
     private void saveDataToJsonFile(String json) throws IOException {
-        // Caminho do diretório e nome do arquivo a ser sobrescrito
-        String filePath = "src/test/resources/jsonFile/executor.json";
 
-        // Assegura que o diretório existe
+        String filePath = "src/test/resources/jsonFile/executor.json";
         Files.createDirectories(Paths.get(filePath).getParent());
 
-        // Escreve o JSON no arquivo especificado, sobrescrevendo se ele já existir
-        try (FileWriter file = new FileWriter(filePath, false)) { // false para não adicionar, mas sim sobrescrever
+        try (FileWriter file = new FileWriter(filePath, false)) {
             file.write(json);
             file.flush();
         }
