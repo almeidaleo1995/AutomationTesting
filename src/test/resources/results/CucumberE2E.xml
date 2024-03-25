@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.418">
-    <testcase classname="Navigation and data validation on JsonPlaceholder" name="Access /albums/1/photos and validate data" time="5.303">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.195">
+    <testcase classname="Navigation and data validation on JsonPlaceholder" name="Access /albums/1/photos and validate data" time="11.923">
         <system-out><![CDATA[Given I am on the JsonPlaceholder guide page................................passed
 When I navigate to the link and open it.....................................passed
 Then I validate the data for the object with id = 6.........................passed
