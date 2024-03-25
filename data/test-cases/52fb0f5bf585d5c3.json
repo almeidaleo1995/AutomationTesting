@@ -1,9 +1,9 @@
 {
-  "uid" : "e95d57af2d6b1c20",
-  "name" : "Get a comment by name",
-  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing comments for JsonPlaceholder#Get a comment by name",
+  "uid" : "52fb0f5bf585d5c3",
+  "name" : "Update a user with PUT request",
+  "historyId" : "io.cucumber.core.plugin.JUnitFormatter:API Testing users for JsonPlaceholder#Update a user with PUT request",
   "time" : {
-    "duration" : 1576
+    "duration" : 346
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,7 +15,7 @@
   "beforeStages" : [ ],
   "testStage" : {
     "steps" : [ {
-      "name" : "Given I set GET comments service endpoint...................................passed",
+      "name" : "Given I set PUT user service endpoint for user with id 5....................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -25,7 +25,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I search a comment by the name \"alias odio sit\"........................passed",
+      "name" : "When I update email, latitude and longitude of the user.....................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -35,7 +35,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should receive status code 200.......................................passed",
+      "name" : "Then I should receive user api status code 200..............................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -45,7 +45,7 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "And I should see the email associated with the name.........................passed",
+      "name" : "And I should see the updated email, latitude and longitude..................passed",
       "time" : { },
       "steps" : [ ],
       "attachments" : [ ],
@@ -71,10 +71,10 @@
     "value" : "io.cucumber.core.plugin.JUnitFormatter"
   }, {
     "name" : "testClass",
-    "value" : "API Testing comments for JsonPlaceholder"
+    "value" : "API Testing users for JsonPlaceholder"
   }, {
     "name" : "package",
-    "value" : "API Testing comments for JsonPlaceholder"
+    "value" : "API Testing users for JsonPlaceholder"
   } ],
   "parameters" : [ ],
   "links" : [ ],
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e95d57af2d6b1c20.json",
+  "source" : "52fb0f5bf585d5c3.json",
   "parameterValues" : [ ]
 }
